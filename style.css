@@ -1,0 +1,21 @@
+body{
+    justify-content: center;
+
+}
+.bro{
+    width: 20% ;
+    height: 50%;
+    background-color: #e67f7f;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-weight: 100;
+    width: 20%;
+    padding: 12px;
+}
+.v{
+    background-color: rgb(195, 31, 31);
+}
+.bg-base-100{
+ background-color: rgb(133, 204, 235);
+}

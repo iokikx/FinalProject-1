@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="v">
+        <center>
+            <div class="form-input">
+                <input class="t" type="text" name="search" id="search" placeholder="Search"/>
+                <button class="k" onclick="handleSearch()">Search</button>
+                <br>
+                <P>
+                    <a href="index1.html"> 
+                        <button class="btn">เลือกส่วนเนื้อเพิ่ม</button>
+                    </a>
+                </P>
+                <br>
+            </div>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                </thead>
+                <tbody id="products">
+                </tbody>
+            </table>
+            <br>
+            <br>
+        </center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" /> 
+  <title>Document 2</title>
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body><center>
+  <a href="home.html"><button class="g"> backtohome </button></a>
+</center>
+  <div class="container">
+    <div class="header form-input">
+      เนื้อวัว
+      <img src="01_FB.jpg" alt="">
+      โปรดใส่ข้อความตามรูปนี้
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">เลื้อกส่วนเนื้อวัว</div>
+      <input class="form" name="pro_name" type="text">
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">โปรดใส่จำนวน</div>
+      <input class="form" name="pro_price" type="number" min="0" max="100">
+    </div>
+    <div class="form-input center">
+      <a href="./product.html">กดกลับไปที่หน้าเพิ่มข้อมูล</a>
+    </div>
+    <div id="response-message" class="message"></div>
+    <div class="center">
+      <button onclick="submitData()" class="button">ส่งข้อมูล</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
